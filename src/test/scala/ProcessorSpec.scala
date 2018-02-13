@@ -39,7 +39,7 @@ class ProcessorSpec extends FlatSpec {
     val res1: String = proc.process("машина")
     assert(res1 == "[]")
 
-    val res2: String = proc.process("машина")
+    val res2: String = proc.process("машина сапог")
     assert(res2 == "[]")
   }
 
